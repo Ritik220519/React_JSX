@@ -1,3 +1,45 @@
-#heading{
-    color: red;
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    background-color: gray;
+}
+img{
+    width: 80px;
+}
+.navItems > ul {
+        display: flex;
+        padding-right: 25px;
+        font-size: 20px;
+        
+}
+.navItems > ul > li {
+    padding: 21px;
+    list-style-type: none;
+    
+}
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.res-card{
+    padding: 5px;
+    width: 200px;
+    height: 350px;
+    
+}
+.res-card:hover{
+    cursor: pointer;
+    border: 1px solid rgba(177, 7, 7, 0.948);
+    background-color:black;
+    color: whitesmoke;
+}
+.search{
+    padding: 10px;
+}
+.res-logo{
+ 
+    width:100%;
 }
